@@ -114,9 +114,46 @@ body {
   position: center;
   width: 355px;
   margin: 10px;
-  padding: 0;
+  background-color: #007AFF;
+  border: none;
+  color: white;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+;
+  cursor: pointer;
+  border-radius: 12px;
 }
 
+.bar {
+  position: center;
+  width: 375px;
+  margin: 0;
+  background-color: #000000;
+  border: none;
+  color: white;
+  height: 34px;
+  padding: 10px 15px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+
+}
+
+.frequencytitle {
+  height: 34px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #97979D;
+  text-align: center;
+  display: inline;
+  float: right;
+  padding: 0px;
+}
 
 .upcoming {
   position: relative;
@@ -186,6 +223,8 @@ body {
   display: inline-block;
   float: right;
   padding: 23.5px 0 23.5px 0;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+
 }
 
 .minutes {
@@ -219,6 +258,8 @@ body {
    display: inline-block;
    float: right;
    padding: 23.5px 0 23.5px 0;
+   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+
  }
 
  .busses-OS {
@@ -253,6 +294,8 @@ body {
    float: right;
    padding: 25px 0 25px 0;
    width: 36%;
+   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+
  }
 
 
